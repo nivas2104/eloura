@@ -1,0 +1,70 @@
+.travel-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 100px;
+  }
+  
+  .travel-container h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .travel-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .travel-form input,
+  .travel-form textarea {
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    width: 100%;
+  }
+  
+  .travel-form input[type="date"] {
+    width: 100%;
+  }
+  
+  .travel-form .date-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .travel-form button {
+    padding: 10px 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .travel-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .chat-container {
+    width: 50%;
+    margin: auto;
+  }
+
+  
+  .travel-main{
+    background-color: #090909;
+    height: 100vh;
+    position: relative;
+    bottom: 32px;
+  }

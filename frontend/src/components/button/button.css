@@ -1,0 +1,17 @@
+.button-main{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: rgba(230, 188, 0, 0.777);
+}
+
+
+.mainBox{
+    margin-top: 10px;
+    height: 100px;
+}
+
+.main-text{
+    color: white;
+}

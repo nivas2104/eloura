@@ -1,0 +1,138 @@
+.nav {
+    background-color: rgba(0, 0, 0, 0.267);
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.logo {
+    position: relative;
+    bottom: 5px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+.logo1{
+    text-decoration: none;
+}
+.logo-vr1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+}
+.logo-vr2 {
+    color: rgb(23, 92, 210);
+    font-size: 30px;
+    
+}
+
+
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+.nav-list {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+.nav-list li a:hover {
+    color: rgb(197, 16, 16);
+}
+
+.nav-options {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    color: white;
+    background-color: rgba(15, 15, 15, 0.753);
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+#search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: 170px;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 250px;
+}
+
+.search-input {
+    width: 90%;
+    height: 20px;
+    padding: 5px 10px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
+    outline: none;
+}
+
+.search-button {
+    width: 70px;
+    height: 30px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.suggestion-list {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 9999;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}

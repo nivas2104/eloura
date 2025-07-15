@@ -1,0 +1,67 @@
+.testimonial {
+    background-color: #000; /* Pure black background */
+    padding: 60px 20px;
+}
+
+.testimonial .section-title {
+    color: #ffffff; /* White text for title */
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.testimonial-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    padding: 36px 0 0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.testimonial-list > * {
+    background-color: #1a1a1a; /* Dark gray for the card */
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-list > *:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 24px rgba(255, 255, 255, 0.1);
+}
+
+.testimonial-user-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -40px;
+    margin-bottom: 16px;
+    border: 3px solid #ffffff; /* White border around profile */
+}
+
+.testimonial-content {
+    color: #cccccc; /* Light gray text */
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.testimonial-user-name {
+    font-weight: 700;
+    color: #ffffff; /* White name */
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+}
+
+.testimonial-user-job {
+    font-size: 14px;
+    color: #888888; /* Slightly muted gray job title */
+}

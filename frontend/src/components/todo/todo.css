@@ -1,0 +1,16 @@
+.button{
+    color: aqua;
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+
+.mainB{
+    background-color: rgb(247, 247, 247);
+}
+
+.mainB h2{
+    margin: 20px;
+}

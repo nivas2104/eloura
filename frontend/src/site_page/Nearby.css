@@ -1,0 +1,48 @@
+.places {
+  display: flex;
+  flex-wrap: wrap;         /* Allows items to wrap to the next line if there's not enough space */
+  justify-content: flex-start; /* Aligns items to the left side */
+  gap: 15px;               /* Adds space between items */
+  padding: 20px;
+  overflow-y: auto;        /* Prevents vertical scrolling */
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;         /* Allows items to wrap to the next line if necessary */
+  gap: 15px;               /* Adds space between items */
+  flex-direction: row;     /* Ensures items are arranged horizontally */
+}
+
+.place-item {
+  width: 150px;
+  text-align: center;
+  background-color: #f0f0f0;  /* Default background color */
+  transition: background-color 0.3s ease;  /* Smooth transition for background color */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.place-item:hover {
+  background-color: rgba(230, 3, 3, 0.774);  /* Changes background color on hover */
+  transform: scale(1.1);
+}
+
+.place-item img {
+  width: 100%;             /* Ensures image fills the container */
+  height: 100px;           /* Fixed height for the image */
+  object-fit: cover;       /* Ensures the image maintains aspect ratio */
+  border-radius: 8px;      /* Optional: Rounded corners */
+  cursor: pointer;        /* Indicates that the image is clickable */
+}
+
+.place-item a {
+  display: block;          /* Ensures the entire box is clickable */
+  color: #333;
+  text-decoration: none;   /* Removes underline from links */
+  margin-top: 5px;         /* Adds space between image and text */
+}
+
+.place-item a:hover {
+  color: #007BFF;          /* Changes color on hover */
+}

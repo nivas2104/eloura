@@ -1,0 +1,81 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+    
+}
+
+.place {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+}
+.places-list{
+    background-color: rgb(192, 129, 20);
+}
+
+.place h2 {
+    margin-bottom: 10px;
+}
+
+.place p {
+    margin-bottom: 5px;
+}
+
+.searchbar{
+    margin: auto;
+    width: 400px;
+}
+
+.explore {
+    background-image: url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300vh; 
+    padding: 20px;
+}
+
+.search-input{
+    color: white;
+}

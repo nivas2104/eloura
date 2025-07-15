@@ -1,0 +1,47 @@
+.recommendation-section {
+    padding: 30px;
+    background: #f0f8ff;
+    text-align: center;
+  }
+  
+  .recommendation-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .recommendation-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .place-card {
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: white;
+  }
+  
+  .place-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .place-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .place-name {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+  }
+  
